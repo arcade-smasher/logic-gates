@@ -309,7 +309,8 @@ tutorialButtons.forEach(b=>b.addEventListener("click", () => {
         <li>You can submit the solution to the level by pressing the <kbd>Enter</kbd> key or by clicking the submit button.</li>
         <li>The truth table can help you visualize desired solutions for each combination of inputs. 0 = OFF, 1 = ON.</li>
         <li>There are many different ways to solve a circuit, so don't stress out over a single one.</li>
-        <li>You can click the button on the top-left next to the level and chapter name to view all of the levels. You can also access the sandbox that way, where you can create anything you want using gates you've unlocked.</li></ul>`, "Tutorial", [{
+        <li>You can click the button on the top-left next to the level and chapter name to view all of the levels. You can also access the sandbox that way, where you can create anything you want using gates you've unlocked.</li>
+        <li>View the source code of this app at <a href="https://github.com/arcade-smasher/logic-gates/">https://github.com/arcade-smasher/logic-gates/</a></li></ul>`, "Tutorial", [{
         text: "Ok",
         action: ()=>{}
     }], ()=>{});
@@ -646,5 +647,6 @@ function onToolbarMouseUp(e) {
         sandboxGates.push(gate);
     }
 }
+
 
 initLevel(currentLevelIndex);
